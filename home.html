@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <link rel="stylesheet" href="home.css" >
+</head>
+<body>
+  <header>
+    <h1>flick</h1>
+  </header>
+
+  <main>
+    <div id="video-container"></div>
+    <div id="video-container"></div>
+    <div id="video-container"></div>
+    <div id="video-container"></div>
+    <div id="video-container"></div>
+    <div id="video-container"></div>
+
+    <form id="upload-form">
+      <label for="video-title">Video Title:</label>
+      <input type="text" id="video-title" name="video-title" required>
+
+      <label for="video-file">Choose a video file:</label>
+      <input type="file" id="video-file" name="video-file" accept="video/*" required>
+
+      <input type="submit" value="Upload Video">
+    </form>
+  </main>
+
+  <script src="home.js"></script>
+</body>
+</html>

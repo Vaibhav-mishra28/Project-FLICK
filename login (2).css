@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(220, 205, 238);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.hpline{
+    margin: 5px;
+    display:flex;
+}
+#table{
+    margin: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#row{
+    padding: 50px;
+    margin: 50px;
+}
+#data{
+    padding: 3px;
+    margin: 10px;
+    
+}
+.topFrame{
+   margin-left: 10px;
+}
+#logo{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+}
+.para{
+    font-size: 55px;
+    font-weight: 100;
+    font-display: auto;
+    display: block;
+    margin-top: 50px;
+    }
+    fieldset{
+        border-radius: 10px;
+    }
+    #search{
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 40px;
+        border-radius: 15px;
+        width: 350px;
+        height: 25px;
+    }
+    #lftbox{
+        width: 20px;
+        height: 362px;
+        margin-right: 5px;
+    }
+    #lftIcon{
+        margin-top: 40px;
+        font-size: 21px;
+    }
+    #user{
+        margin-top: 10px;
+        margin-left: 160px;
+       font-size: 40px;
+    }
+
+    #anchors{
+        margin-left:20px ;
+    }
+    .upper{
+        display: flex;
+    }
+    #user:hover{
+        font-size: 45px;
+    }
+    #mode{
+        margin-left: 55px;
+        font-size: 30px;
+    }
+    .dark{
+        background-color: rgb(220, 205, 238);
+        color: black;
+    }
+    .light{
+        background-color: black;
+        color: rgb(220, 205, 238);
+    }
